@@ -1,0 +1,30 @@
+/* color pallete light blue #31D0E8 medium blue #3FA3B5 dark blue #336070 cream #FFFFEF salmon #FA7567 */
+
+main div{
+  border-style: solid;
+  border-color:#3FA3B5;
+  border-width: 5px;
+  margin: 2px;
+  display: inline-block;
+  padding: 3px;
+  box-shadow:#336070 10px 10px 10px;
+  border-radius: 5px;
+}
+main div h3 {
+  font-size:x-large;
+  margin-bottom: 3px;
+  background-color: #FA7567;
+  color: #FFFFEF;
+  padding: 2px;
+}
+
+ul li:nth-child(15){
+  background-color: #336070;
+  font-size: 24px;
+  color: #FFFFEF;
+  padding: 2px;
+}
+
+ul li {
+  padding: 1px;
+}
