@@ -1,4 +1,4 @@
-# LAB - 6
+# LAB - 7
 
 ## Salmon Cookies
 
@@ -7,6 +7,8 @@ This is the Salmon Cookies Project
 ### Author: Brian Tarte
 ### Collaborators:
 *Carrie Vo*
+*Brandon M*
+*Christine L*
 
 ### Links and Resources
 * [submission PR](http://xyz.com)

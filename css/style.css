@@ -1,8 +1,8 @@
 /* color pallete light blue #31D0E8 medium blue #3FA3B5 dark blue #336070 cream #FFFFEF salmon #FA7567 */
 
-/* main div{
+main div{
   border-style: solid;
-  border-color:#3FA3B5;
+  border-color:#336070;
   border-width: 5px;
   margin: 2px;
   display: inline-block;
@@ -10,7 +10,7 @@
   box-shadow:#336070 10px 10px 10px;
   border-radius: 5px;
 }
-main div h3 {
+/*main div h3 {
   font-size:x-large;
   margin-bottom: 3px;
   background-color: #FA7567;
@@ -28,3 +28,42 @@ ul li:nth-child(15){
 ul li {
   padding: 1px;
 } */
+
+h1 {
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 2.5%;
+  color: #FFFFEF;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+table, td, th {
+  border-collapse: collapse;
+  text-align: left;
+  background-color: #FA7567;
+  border: 1px solid #FFFFEF;
+  
+  color: #0F2557;
+  padding: 10px;
+  
+}
+
+th {
+  padding: 5px;
+  font-weight: bold;
+  color: #FFFFEF 
+}
+
+tr {
+  padding: 20px;
+  border-bottom: solid 2px #FFFFEF;
+}
+
+body {
+  background-color: #3FA3B5;
+}
+
+table {
+  border-radius: 10px;
+}
