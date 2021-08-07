@@ -26,8 +26,24 @@
       
     </header>
     <main>
-      <h1>Daily Cookies Sold</h1>
-      <div  id = 'cookietest'></div>
+      <div>
+      <form id='newStore'>
+        <fieldset>
+          <legend>New Store Details</legend>
+          <label for="newLocation">Location</label>
+          <input type="text" name="newLocation" required></br>
+          <label for="min">Minimum Customers Expected Per Hour</label>
+          <input type="number" name="min" required></br>
+          <label for="max">Maximum Customers Expected Per Hour</label>
+          <input type="number" name="max" required></br>
+          <label for="avg">Average Cookies Sold Per Transaction</label>
+          <input type="number" name="avg" required></br>
+          <button type="submit">Add New Store</button>
+        </fieldset>
+      </form>
+    </div>
+    <h1>Daily Cookies Sold</h1>
+      <div  id = 'cookietest' ></div>
       
 
     </main>

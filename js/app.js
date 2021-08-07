@@ -45,11 +45,11 @@ function Cookieshop (location, min, max, avg){
 
 Cookieshop.prototype.shopArray = [];
   
-const seattle = new Cookieshop('Seattle', 23, 65, 6.3);
-const tokyo = new Cookieshop('Tokyo', 3, 24, 1.2);
-const dubai = new Cookieshop('Dubai', 11, 38, 3,7);
-const paris = new Cookieshop('Paris', 20, 38, 2.3);
-const lima = new Cookieshop('Lima', 2, 16, 0.6);
+new Cookieshop('Seattle', 23, 65, 6.3);
+new Cookieshop('Tokyo', 3, 24, 1.2);
+new Cookieshop('Dubai', 11, 38, 3,7);
+new Cookieshop('Paris', 20, 38, 2.3);
+new Cookieshop('Lima', 2, 16, 0.6);
 
 console.log(Cookieshop.prototype.shopArray);
 
@@ -132,4 +132,36 @@ function tableFooter(){
 tableHeader();
 tableContent();
 tableFooter();
+
+let storeEvent = document.getElementById('newStore');
+
+function addNewStore(event) {
+  event.preventDefault();
+
+  console.log(event.target.newLocation.value);
+  console.log(event.target.min.value);
+  console.log(event.target.max.value);
+  console.log(event.target.avg.value);
+
+  let newLocation = event.target.newLocation.value;
+  let newMin = +(event.target.min.value);
+  let newMax = +(event.target.max.value);
+  let newAvg = +(event.target.avg.value);
+
+  new Cookieshop(newLocation, newMin, newMax, newAvg);
+
+  tableCookieElem.innerHTML = '';
+  tableHeader();
+  tableContent();
+  tableFooter();
+}
+
+
+storeEvent.addEventListener('submit', addNewStore);
+
+
+
+
+
+
 

@@ -9,6 +9,7 @@ main div{
   padding: 3px;
   box-shadow:#336070 10px 10px 10px;
   border-radius: 5px;
+ 
 }
 /*main div h3 {
   font-size:x-large;
@@ -36,6 +37,7 @@ h1 {
   color: #FFFFEF;
   font-size: 24px;
   margin-bottom: 5px;
+  clear: left;
 }
 
 table, td, th {
@@ -213,4 +215,41 @@ footer nav a {
  main img {
   border: 3px solid #336070;
   border-radius: 5px;
+
 }
+
+form {
+  margin: 10px;
+  
+}
+
+fieldset {
+  padding: 5px;
+  border: solid white;
+  
+}
+
+main div:nth-child(1){
+  margin: 15px;
+  background-color: #31D0E8;
+}
+
+legend, label {
+  color: #FFFFEF;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+label, input {
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-weight: bold;
+  
+}
+
+
+
+
