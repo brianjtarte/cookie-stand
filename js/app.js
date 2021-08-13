@@ -156,7 +156,6 @@ function addNewStore(event) {
   tableFooter();
 }
 
-
 storeEvent.addEventListener('submit', addNewStore);
 
 
